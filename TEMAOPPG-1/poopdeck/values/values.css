@@ -1,0 +1,150 @@
+
+
+.values {
+    background-color: #F5D3A5;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.values h2 {
+    padding-bottom: 2rem;
+    line-height: 1.25;
+    letter-spacing: 1rem; 
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.values h1 {
+    font-size: 6rem;
+    color:white;
+    letter-spacing: 1.5rem;
+    justify-content: center; 
+    align-content: center;
+    justify-items: center;
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    padding-top: 18rem;
+    padding-bottom: 1rem;
+}
+
+.values p {
+    line-height: 1.25rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.values-grid {
+    width: 100rem;
+    height: 65rem;
+    margin: auto;
+    justify-content:center; 
+    align-content: center;
+    justify-items: center;
+
+    text-align: center;
+}
+
+.values-grid img {
+    width: 20%;
+    padding-bottom: 3rem;
+    padding-top: 8rem;
+}
+
+.values-grid h2 {
+    font-size: 2rem;
+    color:black;
+    font-weight: 200;
+    letter-spacing: 1.25rem;
+}
+
+.values-grid p {
+    padding: 2rem;
+    padding-left: 35rem;
+    padding-right: 35rem;
+    text-align: center;
+    line-height: 1.25;
+}
+
+.slide-wrapper {
+    background-color: #C8D7D4;
+    border: 1rem solid white;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+
+}
+
+.slides {
+    height: 100%;
+    width: 700%;
+    background-color: #C8D7D4;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+}
+
+.slides article {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #C8D7D4;
+    scroll-snap-align: center;
+}
+
+.values-signup form {
+    display: grid;
+    grid-template-columns: 30rem 20rem;
+    padding: 1rem;
+    padding-bottom: 14rem;
+    justify-content: center; 
+    align-content: center;
+    justify-items: center;
+    background-color: transparent;
+    position: relative;
+
+}
+
+.values-signup input[type=email]  {
+    width: 30rem;
+    outline: none;
+    padding: 1em;
+    font-family: "acumin-pro", "acumin pro", "Helvetica Neue", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid white;
+    transition: none;
+}
+
+.values-signup button {
+    width: 18rem;
+    outline: none;
+    padding: 1.6rem;
+    color: white;
+    font-family: "acumin-pro", "acumin pro", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0.5rem solid white;
+    transition: none;
+}
+
+.values-signup button:hover {
+    border-color: white;
+    border: 0.5rem solid white;
+    background-color: white;
+    color: black;
+    transition: none;
+}

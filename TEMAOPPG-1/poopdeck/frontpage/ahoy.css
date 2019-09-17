@@ -1,0 +1,56 @@
+
+.ahoy {
+    background-color: #C8D7D4;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 80vh;
+}
+
+.ahoy h1 {
+    font-size: 6rem;
+    color:white;
+    letter-spacing: 1.5rem;
+    justify-content: center; 
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.ahoy img {
+    display: block;
+    width: 60rem;
+    height: 40rem;
+    object-fit: cover;
+    border: 1rem solid white;
+    margin-left: auto;
+}
+.ahoy-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20rem;
+    text-align: left;
+}
+
+.ahoy .ahoy-text {
+    margin-left: 2rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+
+.ahoy-text h2 {
+    font-size: 2rem;
+    color:white;
+    font-weight: 400;
+    letter-spacing: 1.25rem;
+    line-height: 2;
+
+    text-transform: uppercase;
+}
+
+.ahoy-text p {
+    line-height: 1.25;
+}

@@ -1,0 +1,88 @@
+.intro-crew {
+    background-color: #F5D3A5;
+    height: 100vh;
+    text-align: center;
+}
+
+.intro-crew h1 {
+    font-size: 6rem;
+    color:white;
+    letter-spacing: 1.5rem;
+    justify-content: center; 
+    align-content: center;
+    justify-items: center;
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 8rem;
+}
+
+.intro-crew-grid {
+
+    padding-left: 35rem;
+    padding-right: 35rem;
+    padding-bottom: 6rem;
+    justify-content:center; 
+    align-content: center;
+    justify-items: center;
+
+    display: grid;
+    grid-template-columns: 40rem 1fr 40rem;
+    
+    text-align: center;
+}
+
+.intro-crew-grid img {
+    width: 70%;
+    padding-bottom: 3rem;
+
+}
+
+
+.intro-crew-grid h2 {
+    font-size: 1.5rem;
+    color:black;
+    font-weight: 200;
+    letter-spacing: 0.5rem;
+}
+
+.intro-crew-grid h1 {
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    max-width: 40rem;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1.25rem;
+}
+
+.intro-crew-grid p {
+    padding: 2rem;
+    max-width: 40rem;
+    text-align: center;
+    line-height: 1.25;
+}
+
+.intro-crew a {
+    background-color: transparent;
+    color: white;
+    display: inline-flex;
+    width: 22rem;
+    height: 4rem;
+    border: 0.5rem solid white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 350;
+    letter-spacing: 1.25rem;
+    padding-left: 1.25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-crew a:hover {
+    background-color: white;
+    color: black;
+}
